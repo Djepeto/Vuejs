@@ -1,7 +1,3 @@
-# yes
-
-> yes
-
 ## Build Setup
 
 ``` bash

@@ -14,25 +14,3 @@ var todo = new Vue({
   template: '<App/>'
 });
 
-var events = new Vue({
-    el: '#events',
-    // Here we can register any values or collections that hold data
-    // for the application
-    data: {
-        event: { name: '', description: '', date: '' },
-        events: []
-    },
-
-// Anything within the ready function will run when the application loads
-    ready: function() {
-        // When the application loads, we want to call the method that initializes
-        // some data
-        this.fetchEvents();
-    },
-
-// Methods we want to use in our application are registered here
-
-
-
-
-});
