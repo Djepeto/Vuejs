@@ -12,7 +12,6 @@
         </li>
       </nav>
 
-
     </div>
     <router-view/>
   </div>
@@ -28,7 +27,6 @@
     import events from '@/components/events'
 
 
-
 export default {
   name: 'App',
   components: {
@@ -39,7 +37,7 @@ export default {
         data() {
            return {
                active: 'Todo',
-               routeNames: ['Todo', 'inline_editor', 'Order_Form', 'Instant_Search', 'Grid_Switch' , 'events'],
+               routeNames: ['Todo', 'inline_editor', 'Order_Form', 'Instant_Search', 'Grid_Switch' , 'events', 'advanced examples'],
 
            }
         },
@@ -149,7 +147,5 @@ p b{
   text-transform:uppercase;
   font-size:18px;
 }
-.resource {
-  margin: 20px 0;
-}
+
 </style>
